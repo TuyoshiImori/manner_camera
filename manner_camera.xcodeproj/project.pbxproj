@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DA39BCF26F0887500A7FBE8 /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA39BCE26F0887500A7FBE8 /* settingViewController.swift */; };
 		2DFBBFB326EDDDE400964354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBBFB226EDDDE400964354 /* AppDelegate.swift */; };
 		2DFBBFB526EDDDE400964354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBBFB426EDDDE400964354 /* SceneDelegate.swift */; };
 		2DFBBFB726EDDDE400964354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBBFB626EDDDE400964354 /* ViewController.swift */; };
 		2DFBBFBA26EDDDE400964354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFBBFB826EDDDE400964354 /* Main.storyboard */; };
 		2DFBBFBC26EDDDE600964354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFBBFBB26EDDDE600964354 /* Assets.xcassets */; };
 		2DFBBFBF26EDDDE600964354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFBBFBD26EDDDE600964354 /* LaunchScreen.storyboard */; };
+		FCCD5A89B694296900CF1E7C /* Pods_manner_camera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEB1E5A3E65AA8931C4AE1B /* Pods_manner_camera.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DA39BCE26F0887500A7FBE8 /* settingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingViewController.swift; sourceTree = "<group>"; };
 		2DFBBFAF26EDDDE400964354 /* manner_camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = manner_camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFBBFB226EDDDE400964354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DFBBFB426EDDDE400964354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		2DFBBFBB26EDDDE600964354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DFBBFBE26EDDDE600964354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DFBBFC026EDDDE600964354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A800C7F01CE0FF3AA8D4445B /* Pods-manner_camera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manner_camera.release.xcconfig"; path = "Target Support Files/Pods-manner_camera/Pods-manner_camera.release.xcconfig"; sourceTree = "<group>"; };
+		DCEB1E5A3E65AA8931C4AE1B /* Pods_manner_camera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_manner_camera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF555C5B38BA503368F064D3 /* Pods-manner_camera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manner_camera.debug.xcconfig"; path = "Target Support Files/Pods-manner_camera/Pods-manner_camera.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCCD5A89B694296900CF1E7C /* Pods_manner_camera.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				2DFBBFB126EDDDE400964354 /* manner_camera */,
 				2DFBBFB026EDDDE400964354 /* Products */,
+				B51CF88A00A88038CCD00424 /* Pods */,
+				492217039B962CC80124E731 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +69,30 @@
 				2DFBBFB426EDDDE400964354 /* SceneDelegate.swift */,
 				2DFBBFB626EDDDE400964354 /* ViewController.swift */,
 				2DFBBFB826EDDDE400964354 /* Main.storyboard */,
+				2DA39BCE26F0887500A7FBE8 /* settingViewController.swift */,
 				2DFBBFBB26EDDDE600964354 /* Assets.xcassets */,
 				2DFBBFBD26EDDDE600964354 /* LaunchScreen.storyboard */,
 				2DFBBFC026EDDDE600964354 /* Info.plist */,
 			);
 			path = manner_camera;
+			sourceTree = "<group>";
+		};
+		492217039B962CC80124E731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCEB1E5A3E65AA8931C4AE1B /* Pods_manner_camera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B51CF88A00A88038CCD00424 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF555C5B38BA503368F064D3 /* Pods-manner_camera.debug.xcconfig */,
+				A800C7F01CE0FF3AA8D4445B /* Pods-manner_camera.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DFBBFC326EDDDE600964354 /* Build configuration list for PBXNativeTarget "manner_camera" */;
 			buildPhases = (
+				8DF183832D4BB12F9EC7A6C1 /* [CP] Check Pods Manifest.lock */,
 				2DFBBFAB26EDDDE400964354 /* Sources */,
 				2DFBBFAC26EDDDE400964354 /* Frameworks */,
 				2DFBBFAD26EDDDE400964354 /* Resources */,
+				D00D96DA24A9688EA295F6AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +162,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8DF183832D4BB12F9EC7A6C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-manner_camera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D00D96DA24A9688EA295F6AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-manner_camera/Pods-manner_camera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-manner_camera/Pods-manner_camera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-manner_camera/Pods-manner_camera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2DFBBFAB26EDDDE400964354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +212,7 @@
 				2DFBBFB726EDDDE400964354 /* ViewController.swift in Sources */,
 				2DFBBFB326EDDDE400964354 /* AppDelegate.swift in Sources */,
 				2DFBBFB526EDDDE400964354 /* SceneDelegate.swift in Sources */,
+				2DA39BCF26F0887500A7FBE8 /* settingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +356,7 @@
 		};
 		2DFBBFC426EDDDE600964354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF555C5B38BA503368F064D3 /* Pods-manner_camera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +376,7 @@
 		};
 		2DFBBFC526EDDDE600964354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A800C7F01CE0FF3AA8D4445B /* Pods-manner_camera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
