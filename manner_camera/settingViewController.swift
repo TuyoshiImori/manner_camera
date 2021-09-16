@@ -37,7 +37,6 @@ class settingViewController: FormViewController {
             <<< ButtonRow() { row in
                 row.title = "設定を確認する"
                 row.cellStyle = .value1
-                row.hidden = false
             }.onCellSelection{_,_ in
                 if let url = URL(string: UIApplication.openSettingsURLString), UIApplication.shared.canOpenURL(url) {
                     UIApplication.shared.open(url, options: [:], completionHandler: nil)
